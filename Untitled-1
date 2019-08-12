@@ -1,0 +1,58 @@
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-4538513444225162",
+    enable_page_level_ads: true
+  });
+</script>
+
+<div class="container">
+<div class="row">
+
+<div class="col-md-8">
+<h2 style="color: white"> Write your own Blog! </h2>
+<hr>
+<form class="" method="post" enctype="multipart/form-data">
+
+   <div class="form-group">
+      <label for="postTitle" style="color: white"> POST TITLE </label>
+      <input type="text" name="postTitle" class="form-control">
+   </div>
+    <div class="form-group">
+     <label for="postCategoryId" style="color: white"> POST CATEGORY </label>
+     <select name="postCategoryId" id="">
+
+       </select>
+   </div>
+   <div class="form-group">
+      <label for="postAuthor" style="color: white"> POST AUTHOR </label>
+      <input type="text" name="postAuthor" class="form-control">
+   </div>
+   <div class="form-group">
+      <label for="postStatus" style="color: white"> POST STATUS - DRAFT </label>
+<!--      <input type="text" name="postStatus" class="form-control">-->
+   </div>
+   <div class="form-group">
+    <label for="postImage" style="color: white"> CHOOSE IMAGE </label>
+    <input type="file" name="image" class="form-control-file" id="postImage">
+   </div>
+   <div class="form-group">
+      <label for="postTags" style="color: white"> POST TAGS </label>
+      <input type="text" name="postTags" class="form-control">
+   </div>
+   <div class="form-group">
+      <label for="postContent" style="color: white"> POST CONTENT </label>
+      <textarea class="form-control" name="postContent" id="body" cols="30" rows="10"></textarea>
+   </div>
+   <div class="form-group">
+      <input class="btn btn-primary" type="submit" name="createPost" value="Submit Post">
+   </div>
+
+</form>
+
+ </div>
+ <div class="col-md-4">
+   <?php include "includes/catagory.php"; ?>
+
+</div>
+</div>
